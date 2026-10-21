@@ -1,0 +1,75 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>衍見築 3D 模型</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600&family=Noto+Serif+TC:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* Deliberately single dark look (night gallery around a lit model); colours come from style.css tokens. */
+  :root { color-scheme: dark; }
+  html, body { height: 100%; }
+  body { background: var(--bg); color: var(--ink); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0; }
+  .brand { top: calc(34px + env(safe-area-inset-top, 0px)); left: max(40px, env(safe-area-inset-left, 0px)); }
+  .legal { bottom: calc(12px + env(safe-area-inset-bottom, 0px)); }
+  .dock { bottom: calc(46px + env(safe-area-inset-bottom, 0px)); }
+  @media (max-width: 820px) {
+    .brand { top: calc(16px + env(safe-area-inset-top, 0px)); left: max(16px, env(safe-area-inset-left, 0px)); }
+  }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three/three.module.js",
+  "three/addons/": "./vendor/three/addons/"
+} }
+</script>
+
+<div id="stage"></div>
+<div id="labels"></div>
+
+<header class="brand">
+  <div class="brand-dev" id="brandDev"></div>
+  <div class="brand-name" id="brandName"></div>
+  <div class="brand-tag" id="brandTag"></div>
+</header>
+
+<nav class="menu" id="menu" aria-label="主選單"></nav>
+
+<aside class="info" id="info">
+  <div class="info-kicker" id="infoKicker"></div>
+  <h2 class="info-title" id="infoTitle"></h2>
+  <div class="info-layout" id="infoLayout"></div>
+  <ul class="info-list" id="infoList"></ul>
+  <button class="plan-thumb" id="planThumb" aria-label="放大平面配置圖"><img alt="平面配置" id="planImg"><span>平面配置圖</span></button>
+</aside>
+
+<aside class="furnish" id="furnish" hidden></aside>
+
+<div class="dock" id="dock">
+  <div class="chips" id="chips"></div>
+  <div class="toggles" id="toggles"></div>
+</div>
+
+<div class="hint" id="hint"></div>
+
+<footer class="legal" id="legal"></footer>
+
+<div class="loader" id="loader">
+  <div class="loader-name">衍見築</div>
+  <div class="loader-bar"><i id="loaderBar"></i></div>
+  <div class="loader-txt" id="loaderTxt">載入中</div>
+</div>
+
+<div class="attract" id="attract">
+  <div class="attract-title" id="attractTitle"></div>
+  <div class="attract-cta">觸碰螢幕 · 開始探索</div>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-body" id="modalBody"></div>
+  <button class="modal-close" id="modalClose" aria-label="關閉">✕</button>
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body></html>

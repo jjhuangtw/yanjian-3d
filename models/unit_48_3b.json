@@ -1,0 +1,413 @@
+{
+ "unit": "unit_48_3b",
+ "source_blend": "Yanjian_48_ThreeBedroom.blend",
+ "groups": [
+  {
+   "name": "Architecture",
+   "min": [
+    -1.8766,
+    -0.176,
+    -15.1096
+   ],
+   "max": [
+    10.5068,
+    3.5,
+    0.1067
+   ],
+   "tris": 41872,
+   "source_objects": 332
+  },
+  {
+   "name": "Ceilings",
+   "min": [
+    -1.8766,
+    3.124,
+    -14.1096
+   ],
+   "max": [
+    9.5068,
+    3.524,
+    0.0137
+   ],
+   "tris": 1516,
+   "source_objects": 5
+  },
+  {
+   "name": "Living",
+   "min": [
+    0.0822,
+    0.024,
+    -8.4164
+   ],
+   "max": [
+    3.5479,
+    2.94,
+    -4.6123
+   ],
+   "tris": 141412,
+   "source_objects": 246
+  },
+  {
+   "name": "Kitchen",
+   "min": [
+    4.7945,
+    0.027,
+    -4.4795
+   ],
+   "max": [
+    7.2055,
+    2.62,
+    -1.8493
+   ],
+   "tris": 11488,
+   "source_objects": 46
+  },
+  {
+   "name": "Bedroom_UpperLeft",
+   "min": [
+    0.0701,
+    0.0225,
+    -14.0014
+   ],
+   "max": [
+    4.6566,
+    2.77,
+    -11.3288
+   ],
+   "tris": 90640,
+   "source_objects": 87
+  },
+  {
+   "name": "Bedroom_MiddleLeft",
+   "min": [
+    0.1233,
+    0.0225,
+    -11.2411
+   ],
+   "max": [
+    3.5407,
+    2.77,
+    -8.9337
+   ],
+   "tris": 81960,
+   "source_objects": 78
+  },
+  {
+   "name": "Bedroom_Primary",
+   "min": [
+    4.9068,
+    0.0225,
+    -13.902
+   ],
+   "max": [
+    9.4074,
+    2.77,
+    -8.5165
+   ],
+   "tris": 105328,
+   "source_objects": 114
+  },
+  {
+   "name": "Foyer",
+   "min": [
+    4.7671,
+    0.024,
+    -4.9343
+   ],
+   "max": [
+    7.2123,
+    1.4455,
+    -4.5956
+   ],
+   "tris": 14952,
+   "source_objects": 41
+  },
+  {
+   "name": "Dining",
+   "min": [
+    4.6147,
+    0.024,
+    -8.3159
+   ],
+   "max": [
+    6.4264,
+    1.1708,
+    -6.5647
+   ],
+   "tris": 94492,
+   "source_objects": 148
+  },
+  {
+   "name": "Baths",
+   "min": [
+    3.7397,
+    0.0,
+    -14.0274
+   ],
+   "max": [
+    9.4247,
+    3.124,
+    -0.017
+   ],
+   "tris": 58724,
+   "source_objects": 160
+  },
+  {
+   "name": "Balconies",
+   "min": [
+    -1.8956,
+    -0.12,
+    -14.8767
+   ],
+   "max": [
+    9.4658,
+    3.104,
+    -2.4878
+   ],
+   "tris": 29440,
+   "source_objects": 46
+  },
+  {
+   "name": "Curtains",
+   "min": [
+    0.0883,
+    0.0481,
+    -13.9802
+   ],
+   "max": [
+    7.6503,
+    3.124,
+    -4.925
+   ],
+   "tris": 246152,
+   "source_objects": 250
+  },
+  {
+   "name": "Lighting",
+   "min": [
+    -0.8782,
+    2.133,
+    -13.6727
+   ],
+   "max": [
+    8.6453,
+    3.129,
+    -1.1903
+   ],
+   "tris": 35260,
+   "source_objects": 81
+  }
+ ],
+ "views": [
+  {
+   "name": "Plan",
+   "type": "ORTHO",
+   "pos": [
+    4.274,
+    22.0,
+    -7.2192
+   ],
+   "target": [
+    4.274,
+    18.0,
+    -7.2192
+   ],
+   "fov": 40.0,
+   "ortho_scale": 16.0
+  },
+  {
+   "name": "Axon",
+   "type": "ORTHO",
+   "pos": [
+    -11.0,
+    22.0,
+    9.0
+   ],
+   "target": [
+    -9.0553,
+    19.1866,
+    6.9256
+   ],
+   "fov": 40.0,
+   "ortho_scale": 20.0
+  },
+  {
+   "name": "Living",
+   "type": "PERSP",
+   "pos": [
+    6.7808,
+    1.62,
+    -5.0822
+   ],
+   "target": [
+    3.172,
+    1.3026,
+    -6.7779
+   ],
+   "fov": 64.01,
+   "ortho_scale": null
+  },
+  {
+   "name": "PrimaryBedroom",
+   "type": "PERSP",
+   "pos": [
+    5.1233,
+    1.58,
+    -9.411
+   ],
+   "target": [
+    7.4689,
+    1.0163,
+    -12.6016
+   ],
+   "fov": 64.01,
+   "ortho_scale": null
+  },
+  {
+   "name": "UpperBedroom",
+   "type": "PERSP",
+   "pos": [
+    3.9589,
+    1.55,
+    -13.3699
+   ],
+   "target": [
+    0.7311,
+    0.5289,
+    -11.2395
+   ],
+   "fov": 64.01,
+   "ortho_scale": null
+  },
+  {
+   "name": "MiddleBedroom",
+   "type": "PERSP",
+   "pos": [
+    3.1644,
+    1.53,
+    -8.9041
+   ],
+   "target": [
+    0.0447,
+    0.7586,
+    -11.2858
+   ],
+   "fov": 66.43,
+   "ortho_scale": null
+  },
+  {
+   "name": "Ensuite",
+   "type": "PERSP",
+   "pos": [
+    8.0822,
+    1.55,
+    -10.5342
+   ],
+   "target": [
+    9.1548,
+    0.6389,
+    -14.2785
+   ],
+   "fov": 74.75,
+   "ortho_scale": null
+  },
+  {
+   "name": "CommonBathroom",
+   "type": "PERSP",
+   "pos": [
+    4.0137,
+    1.55,
+    -1.4521
+   ],
+   "target": [
+    7.404,
+    0.2161,
+    0.1991
+   ],
+   "fov": 71.79,
+   "ortho_scale": null
+  },
+  {
+   "name": "Kitchen",
+   "type": "PERSP",
+   "pos": [
+    4.9041,
+    1.6,
+    -3.2055
+   ],
+   "target": [
+    8.4083,
+    0.7412,
+    -1.4784
+   ],
+   "fov": 71.79,
+   "ortho_scale": null
+  },
+  {
+   "name": "LivingDetail",
+   "type": "PERSP",
+   "pos": [
+    3.8219,
+    1.22,
+    -5.6712
+   ],
+   "target": [
+    0.9987,
+    0.6031,
+    -8.4369
+   ],
+   "fov": 33.98,
+   "ortho_scale": null
+  },
+  {
+   "name": "JoineryDetail",
+   "type": "PERSP",
+   "pos": [
+    3.0411,
+    1.57,
+    -6.2877
+   ],
+   "target": [
+    0.5446,
+    1.307,
+    -3.1735
+   ],
+   "fov": 42.9,
+   "ortho_scale": null
+  },
+  {
+   "name": "BedroomDetail",
+   "type": "PERSP",
+   "pos": [
+    5.6301,
+    1.27,
+    -11.0411
+   ],
+   "target": [
+    9.1083,
+    0.4438,
+    -12.8354
+   ],
+   "fov": 37.94,
+   "ortho_scale": null
+  },
+  {
+   "name": "BathDetail",
+   "type": "PERSP",
+   "pos": [
+    8.1507,
+    1.38,
+    -11.8904
+   ],
+   "target": [
+    10.7749,
+    0.4221,
+    -9.0276
+   ],
+   "fov": 37.94,
+   "ortho_scale": null
+  }
+ ],
+ "materials": 43,
+ "glb_bytes": 4547400
+}

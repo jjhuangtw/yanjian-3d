@@ -1,0 +1,228 @@
+{
+ "unit": "exterior",
+ "source_blend": "Yanjian_Exterior_Context.blend",
+ "groups": [
+  {
+   "name": "01_Tower_LOD0",
+   "min": [
+    -18.34,
+    0.0,
+    -6.74
+   ],
+   "max": [
+    5.0867,
+    70.6996,
+    20.8624
+   ],
+   "tris": 337056,
+   "source_objects": 52
+  },
+  {
+   "name": "03_Entrance_Ground",
+   "min": [
+    -22.87,
+    0.0,
+    -7.15
+   ],
+   "max": [
+    6.9,
+    5.03,
+    26.1
+   ],
+   "tris": 2420,
+   "source_objects": 3
+  },
+  {
+   "name": "04_OSM_Context",
+   "min": [
+    -174.221,
+    0.12,
+    -138.7281
+   ],
+   "max": [
+    170.9872,
+    52.55,
+    213.6751
+   ],
+   "tris": 17624,
+   "source_objects": 93
+  },
+  {
+   "name": "05_Roads_Sidewalks",
+   "min": [
+    -167.0,
+    -0.65,
+    -184.0
+   ],
+   "max": [
+    167.0,
+    6.04,
+    224.0582
+   ],
+   "tris": 5290,
+   "source_objects": 7
+  },
+  {
+   "name": "06_Landscape",
+   "min": [
+    -23.2918,
+    0.1724,
+    -140.1391
+   ],
+   "max": [
+    126.2595,
+    8.9381,
+    137.755
+   ],
+   "tris": 98680,
+   "source_objects": 31
+  },
+  {
+   "name": "09_Lighting_Cameras",
+   "min": [
+    -1500.0,
+    -0.72,
+    -1500.0
+   ],
+   "max": [
+    1500.0,
+    -0.72,
+    1500.0
+   ],
+   "tris": 2,
+   "source_objects": 1
+  }
+ ],
+ "views": [
+  {
+   "name": "CAM_01_Exterior_Day",
+   "type": "PERSP",
+   "pos": [
+    90.0,
+    65.0,
+    115.0
+   ],
+   "target": [
+    87.384,
+    64.1708,
+    112.0898
+   ],
+   "fov": 32.27,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_02_Front",
+   "type": "PERSP",
+   "pos": [
+    -7.8,
+    39.0,
+    84.0
+   ],
+   "target": [
+    -7.8,
+    38.7008,
+    80.0112
+   ],
+   "fov": 45.75,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_03_Side",
+   "type": "PERSP",
+   "pos": [
+    82.0,
+    44.0,
+    6.0
+   ],
+   "target": [
+    78.0363,
+    43.5391,
+    5.7235
+   ],
+   "fov": 41.11,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_04_Entrance",
+   "type": "PERSP",
+   "pos": [
+    -7.8,
+    2.15,
+    31.2
+   ],
+   "target": [
+    -7.8,
+    2.413,
+    27.2087
+   ],
+   "fov": 68.04,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_05_Street_Low",
+   "type": "PERSP",
+   "pos": [
+    17.8,
+    1.7,
+    24.0
+   ],
+   "target": [
+    15.4672,
+    4.3909,
+    22.1788
+   ],
+   "fov": 73.74,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_06_Aerial_Context",
+   "type": "PERSP",
+   "pos": [
+    174.0,
+    205.0,
+    201.0
+   ],
+   "target": [
+    171.9409,
+    202.4888,
+    198.6646
+   ],
+   "fov": 23.82,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_07_Exterior_Night",
+   "type": "PERSP",
+   "pos": [
+    16.0,
+    58.0,
+    84.0
+   ],
+   "target": [
+    14.8839,
+    56.8276,
+    80.3422
+   ],
+   "fov": 58.72,
+   "ortho_scale": null
+  },
+  {
+   "name": "CAM_08_PhotoMatched_Front",
+   "type": "PERSP",
+   "pos": [
+    20.0,
+    1.65,
+    6.2
+   ],
+   "target": [
+    17.3617,
+    4.6566,
+    6.2
+   ],
+   "fov": 61.56,
+   "ortho_scale": null
+  }
+ ],
+ "materials": 28,
+ "glb_bytes": 5168960
+}

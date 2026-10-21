@@ -1,0 +1,366 @@
+{
+ "unit": "unit_48_2b",
+ "source_blend": "YJ2_48Ping_TwoBedroom.blend",
+ "groups": [
+  {
+   "name": "Architecture",
+   "min": [
+    -0.9315,
+    -0.195,
+    -15.0411
+   ],
+   "max": [
+    9.5775,
+    3.125,
+    0.098
+   ],
+   "tris": 116092,
+   "source_objects": 649
+  },
+  {
+   "name": "Ceilings",
+   "min": [
+    0.0274,
+    2.925,
+    -14.0822
+   ],
+   "max": [
+    9.4795,
+    3.305,
+    -0.0
+   ],
+   "tris": 6396,
+   "source_objects": 33
+  },
+  {
+   "name": "Living",
+   "min": [
+    0.1174,
+    0.0295,
+    -9.0227
+   ],
+   "max": [
+    3.5972,
+    2.74,
+    -4.6164
+   ],
+   "tris": 87384,
+   "source_objects": 135
+  },
+  {
+   "name": "Kitchen",
+   "min": [
+    4.4413,
+    0.0306,
+    -6.4521
+   ],
+   "max": [
+    7.2055,
+    2.73,
+    -1.8493
+   ],
+   "tris": 35366,
+   "source_objects": 99
+  },
+  {
+   "name": "Master",
+   "min": [
+    5.137,
+    0.03,
+    -13.7293
+   ],
+   "max": [
+    8.8082,
+    2.615,
+    -8.5616
+   ],
+   "tris": 71956,
+   "source_objects": 95
+  },
+  {
+   "name": "FlexibleRoom",
+   "min": [
+    0.3703,
+    0.0225,
+    -13.9726
+   ],
+   "max": [
+    4.6164,
+    2.595,
+    -11.1233
+   ],
+   "tris": 68180,
+   "source_objects": 98
+  },
+  {
+   "name": "Foyer",
+   "min": [
+    4.5676,
+    0.035,
+    -8.3288
+   ],
+   "max": [
+    7.1507,
+    2.635,
+    -6.5068
+   ],
+   "tris": 2820,
+   "source_objects": 15
+  },
+  {
+   "name": "Dining",
+   "min": [
+    0.8678,
+    0.0292,
+    -10.6886
+   ],
+   "max": [
+    2.9678,
+    1.2113,
+    -8.7772
+   ],
+   "tris": 63988,
+   "source_objects": 108
+  },
+  {
+   "name": "Baths",
+   "min": [
+    3.9115,
+    0.032,
+    -14.0137
+   ],
+   "max": [
+    9.4658,
+    3.125,
+    0.0104
+   ],
+   "tris": 47844,
+   "source_objects": 134
+  },
+  {
+   "name": "Balconies",
+   "min": [
+    -1.9975,
+    -0.19,
+    -7.5729
+   ],
+   "max": [
+    3.5969,
+    1.25,
+    -2.5231
+   ],
+   "tris": 56568,
+   "source_objects": 108
+  },
+  {
+   "name": "Curtains",
+   "min": [
+    0.1505,
+    0.0431,
+    -13.922
+   ],
+   "max": [
+    7.7512,
+    3.125,
+    -4.9063
+   ],
+   "tris": 232972,
+   "source_objects": 105
+  },
+  {
+   "name": "Lighting",
+   "min": [
+    0.5875,
+    2.0636,
+    -13.7549
+   ],
+   "max": [
+    8.6727,
+    3.169,
+    -1.0944
+   ],
+   "tris": 33084,
+   "source_objects": 65
+  }
+ ],
+ "views": [
+  {
+   "name": "01_Plan_Top",
+   "type": "ORTHO",
+   "pos": [
+    4.38,
+    31.0,
+    -7.75
+   ],
+   "target": [
+    4.38,
+    27.0,
+    -7.75
+   ],
+   "fov": 40.0,
+   "ortho_scale": 17.5
+  },
+  {
+   "name": "02_Axonometric",
+   "type": "ORTHO",
+   "pos": [
+    -13.0,
+    25.0,
+    11.0
+   ],
+   "target": [
+    -11.0431,
+    22.2165,
+    8.8969
+   ],
+   "fov": 40.0,
+   "ortho_scale": 22.0
+  },
+  {
+   "name": "03_Living",
+   "type": "PERSP",
+   "pos": [
+    4.2055,
+    1.6,
+    -5.5205
+   ],
+   "target": [
+    1.0829,
+    0.9731,
+    -7.9406
+   ],
+   "fov": 65.47,
+   "ortho_scale": null
+  },
+  {
+   "name": "04_Flexible_Room",
+   "type": "PERSP",
+   "pos": [
+    3.726,
+    1.55,
+    -11.5068
+   ],
+   "target": [
+    0.991,
+    0.4331,
+    -14.2036
+   ],
+   "fov": 60.82,
+   "ortho_scale": null
+  },
+  {
+   "name": "05_Master",
+   "type": "PERSP",
+   "pos": [
+    5.3836,
+    1.6,
+    -9.6575
+   ],
+   "target": [
+    7.2502,
+    0.7035,
+    -13.0798
+   ],
+   "fov": 65.47,
+   "ortho_scale": null
+  },
+  {
+   "name": "06_Master_Bath",
+   "type": "PERSP",
+   "pos": [
+    8.2466,
+    1.62,
+    -11.3562
+   ],
+   "target": [
+    9.1374,
+    0.091,
+    -14.9434
+   ],
+   "fov": 73.74,
+   "ortho_scale": null
+  },
+  {
+   "name": "07_Common_Bath",
+   "type": "PERSP",
+   "pos": [
+    4.3425,
+    1.52,
+    -1.3425
+   ],
+   "target": [
+    7.9088,
+    0.1396,
+    -0.1696
+   ],
+   "fov": 70.79,
+   "ortho_scale": null
+  },
+  {
+   "name": "08_Dining_Kitchen",
+   "type": "PERSP",
+   "pos": [
+    3.5753,
+    1.63,
+    -8.0959
+   ],
+   "target": [
+    0.9299,
+    0.5878,
+    -10.9093
+   ],
+   "fov": 63.07,
+   "ortho_scale": null
+  },
+  {
+   "name": "09_Living_Detail",
+   "type": "PERSP",
+   "pos": [
+    2.7671,
+    1.0,
+    -6.6301
+   ],
+   "target": [
+    0.5286,
+    0.1452,
+    -9.833
+   ],
+   "fov": 31.42,
+   "ortho_scale": null
+  },
+  {
+   "name": "10_Mediawall",
+   "type": "PERSP",
+   "pos": [
+    3.7808,
+    1.52,
+    -7.6438
+   ],
+   "target": [
+    1.4802,
+    1.2931,
+    -4.3795
+   ],
+   "fov": 54.88,
+   "ortho_scale": null
+  },
+  {
+   "name": "11_Kitchen",
+   "type": "PERSP",
+   "pos": [
+    5.2466,
+    1.65,
+    -4.4932
+   ],
+   "target": [
+    7.6952,
+    0.6188,
+    -1.503
+   ],
+   "fov": 65.47,
+   "ortho_scale": null
+  }
+ ],
+ "materials": 36,
+ "glb_bytes": 4904456
+}
